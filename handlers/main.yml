@@ -1,2 +1,6 @@
 ---
 # handlers file for lighthouse
+- name: Nginx reload
+  service:
+    name: nginx
+    state: restarted
